@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100);
+/* line 5, ../sass/style.scss */
+body {
+  background: #010818 url("../img/moon.jpg") no-repeat center right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 11, ../sass/style.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', Arial, sans-serif;
+  color: white;
+}
+
+/* line 21, ../sass/style.scss */
+.bgcover {
+  background: #010818;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 28, ../sass/style.scss */
+.bgcover2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+/* line 35, ../sass/style.scss */
+.bgcover2.over {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+  opacity: 0.2;
+}
+
+/* line 40, ../sass/style.scss */
+.noise {
+  display: none;
+  background: url("../img/crazy.gif") repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 300ms ease;
+  -moz-transition: opacity 300ms ease;
+  -o-transition: opacity 300ms ease;
+  transition: opacity 300ms ease;
+}
+/* line 49, ../sass/style.scss */
+.noise.over {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=5);
+  opacity: 0.05;
+}
+
+/* line 54, ../sass/style.scss */
+.center {
+  display: block;
+  width: 650px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+/* line 62, ../sass/style.scss */
+a {
+  color: white;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  -webkit-transition: padding 300ms ease;
+  -moz-transition: padding 300ms ease;
+  -o-transition: padding 300ms ease;
+  transition: padding 300ms ease;
+}
+/* line 69, ../sass/style.scss */
+a h3 {
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+/* line 73, ../sass/style.scss */
+a:hover {
+  color: white;
+}
+/* line 76, ../sass/style.scss */
+a:hover h3 {
+  padding-left: 10px;
+}
+/* line 81, ../sass/style.scss */
+a h1, a h3 {
+  display: inline;
+}
+
+/* line 86, ../sass/style.scss */
+h1 {
+  margin: 0;
+  font-weight: 100;
+  font-size: 120px;
+}
+
+/* line 91, ../sass/style.scss */
+h3 {
+  border-left: 0;
+  margin: 0 0 0 7px;
+  font-size: 49px;
+  font-weight: 400;
+}
+
+/* line 98, ../sass/style.scss */
+p {
+  margin: 20px 0 0 11px;
+}
+
+/*responsive!*/
+@media screen and (max-width: 1000px) {
+  /* line 104, ../sass/style.scss */
+  .center {
+    width: 350px;
+  }
+
+  /* line 108, ../sass/style.scss */
+  h1 {
+    font-size: 70px;
+  }
+
+  /* line 111, ../sass/style.scss */
+  h3 {
+    margin: 0 0 0 4px;
+    font-size: 28px;
+  }
+}

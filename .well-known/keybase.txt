@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/karlkeefer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://karlkeefer.com
+  * I am karlkeefer (https://keybase.io/karlkeefer) on keybase.
+  * I have a public key ASCB2OtUJirTVcG2rIGs5UhmBSlTvWCOlP6E5BSd3h6uXQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012081d8eb54262ad355c1b6ac81ace54866052953bd608e94fe84e4149dde1eae5d0a",
+      "host": "keybase.io",
+      "kid": "012081d8eb54262ad355c1b6ac81ace54866052953bd608e94fe84e4149dde1eae5d0a",
+      "uid": "fb5768f3f44175790de90fdc793ab219",
+      "username": "karlkeefer"
+    },
+    "merkle_root": {
+      "ctime": 1568310008,
+      "hash": "77449ac265dded74a13814ad07c573a3958ea913e8fe388fca1a1774ab60382fdcd6138843e51ae84088316118ef55852e95d43e861505424ad7feb8b9734b62",
+      "hash_meta": "e26129674d87cad2c7446f70fb79e84d6cec01bff9699713c2a111594f9229c2",
+      "seqno": 7012835
+    },
+    "service": {
+      "entropy": "CMHcuZoOIP7ah4BeuKbBhF6t",
+      "hostname": "karlkeefer.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.1"
+  },
+  "ctime": 1568310016,
+  "expire_in": 504576000,
+  "prev": "c268ec10d4eed5b0860952082281be0506d264c4225eb0c07dcbfd2a8c2bef86",
+  "seqno": 29,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEggdjrVCYq01XBtqyBrOVIZgUpU71gjpT+hOQUnd4erl0Kp3BheWxvYWTESpcCHcQgwmjsENTu1bCGCVIIIoG+BQbSZMQiXrDAfcv9Kowr74bEILPb9dWWgOuxMBGirIsMmkNLwvqjhqj8Z4/kHW8pG3zkAgHCo3NpZ8RAcnBy6Qt8oIiJHbYkfFWOVWv8urz82wK4aJ19RqNL/ITCqHBgHcL5KhykFVyQ7vyZ2iNeaKqm72lRxdeVaoytD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHUgNyW6+omNaw1bBBoKpfWiFwUusYVe+WkAgnN7Rqymo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/karlkeefer
+
+==================================================================
